@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  Task
+//  Tasks
 //
-//  Created by Karl Pfister on 11/11/19.
-//  Copyright © 2019 Karl Pfister. All rights reserved.
+//  Created by Jason Koceja on 9/16/20.
+//  Copyright © 2020 Jason Koceja. All rights reserved.
 //
 
 import UIKit

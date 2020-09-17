@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Task
+//  Tasks
 //
-//  Created by Karl Pfister on 11/11/19.
-//  Copyright © 2019 Karl Pfister. All rights reserved.
+//  Created by Jason Koceja on 9/16/20.
+//  Copyright © 2020 Jason Koceja. All rights reserved.
 //
 
 import UIKit
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Task")
+        let container = NSPersistentContainer(name: "Tasks")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
