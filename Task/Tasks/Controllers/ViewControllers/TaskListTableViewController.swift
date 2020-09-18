@@ -48,7 +48,6 @@ class TaskListTableViewController: UITableViewController {
         if editingStyle == .delete {
             let task = TaskController.shared.fetchedResultsController.object(at:indexPath)
             TaskController.shared.removeTask(task: task)
-            tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
     
